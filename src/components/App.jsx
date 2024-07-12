@@ -11,7 +11,7 @@ const App = () => {
             {/* <Header props={styles}/>
             <Main props={styles}/>
             <Footer props={styles}/> */}
-            руддщ
+            руддщh
         </>
     )
 }

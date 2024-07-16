@@ -1,6 +1,6 @@
 .form {
     border: 1px solid #BDBDBD;
-    width: 528px;
+    min-width: 528px;
     height: 510px;
 }
 
@@ -49,6 +49,7 @@
 .text {
     font-size: 12px;
     line-height: 16px;
+    width: 100%;
     max-width: 440px;
 }
 
@@ -71,4 +72,19 @@
 .btn:hover {
     color: #25232B;
     background-color: #fff;
+}
+
+@media (max-width: 550px) {
+    .form {
+        min-width: 0;
+        min-height: 582px;
+    }
+
+    .title {
+        line-height: 32px;
+    }
+
+    .row {
+        gap: 0 10px;
+    }
 }

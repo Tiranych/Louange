@@ -1,14 +1,13 @@
 import React from 'react';
 import Form from '../../global/Form.jsx';
 import Title from '../../global/Title.jsx';
-import MyMap from './map/Map.jsx';
-
 import * as styles from './Contacts.module.css';
+import MyMap from './map/Map.jsx';
 
 const Contacts = () => {
     return (
         <section className={styles.section}>
-            <div className={styles.inner}>
+            <div>
                 <Title>
                     Контакты
                 </Title>
@@ -27,7 +26,7 @@ const Contacts = () => {
                         <p className={styles.subtitle}>Адрес</p>
                         <p className={styles.text}>Наш адрес:</p>
                         <p className={styles.contact}>Россия, 125009, Москва
-                            Большой Гнездниковский переулок дом. 3, офис 1/1</p>
+                        Большой Гнездниковский переулок дом. 3, офис 1/1</p>
                     </li>
                     <li className={styles.item + ' ' + styles.item_last}>
                         <p className={styles.subtitle}>По вопросам сотрудничества</p>

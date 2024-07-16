@@ -1,0 +1,25 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 24px;
+}
+
+.content {
+    max-width: 275px;
+}
+
+.subtitle {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.item {
+    opacity: 0.8;
+}
+
+.item + .item {
+    margin-top: 8px;
+}

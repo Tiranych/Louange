@@ -1,0 +1,14 @@
+.logo {
+    margin-bottom: 24px;
+}
+
+.subtitle {
+    opacity: 0.8;
+    margin-bottom: 4px;
+}
+
+.text {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 16px;
+}

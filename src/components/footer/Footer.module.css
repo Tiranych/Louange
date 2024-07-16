@@ -1,0 +1,22 @@
+.footer {
+    background-color: #1A1A1A;
+}
+
+.top {
+    padding: 48px 0 24px;
+}
+
+.inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom {
+    padding: 16px 0;
+    background-color: #000;
+}
+
+.text {
+    text-align: center;
+    font-weight: 500;
+}

@@ -1,0 +1,28 @@
+.list {
+    padding: 48px 0;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    margin-bottom: 16px;
+}
+
+.item+.item {
+    margin-top: 48px;
+}
+
+.text {
+    letter-spacing: 0.16px;
+    margin-top: 16px;
+}
+
+.rules {
+    letter-spacing: 0.16px;
+    margin-bottom: 16px;
+}
+
+.rules:last-child {
+    margin-bottom: 0;
+}

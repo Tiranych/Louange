@@ -12,11 +12,25 @@
 }
 
 .bottom {
-    padding: 16px 0;
+    padding: 16px;
     background-color: #000;
 }
 
 .text {
     text-align: center;
     font-weight: 500;
+}
+
+@media (max-width: 1100px) {
+    .inner {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 42px 0;
+    }
+}
+
+@media (max-width: 660px) {
+    .inner {
+        gap: 32px 0;
+    }
 }

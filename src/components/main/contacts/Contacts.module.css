@@ -24,9 +24,6 @@
 }
 
 .subtitle {
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 32px;
     margin-bottom: 8px;
 }
 
@@ -37,7 +34,7 @@
 
 .text {
     color: #BDBDBD;
-    margin-bottom: 16px;
+    margin: 8px 0 16px;
 }
 
 .contact {

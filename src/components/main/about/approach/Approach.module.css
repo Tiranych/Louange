@@ -1,0 +1,19 @@
+.section {
+    padding: 24px 0;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.item {
+    display: flex;
+    gap: 0 8px;
+    align-items: center;
+    padding: 20px 16px;
+    flex-basis: 416px;
+    background-color: #302E36;
+    border-left: 1px solid #BDBDBD;
+}

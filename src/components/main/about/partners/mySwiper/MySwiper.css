@@ -1,0 +1,20 @@
+.swiper {
+    margin-top: 24px;
+}
+
+.swiper-slide {
+    min-width: 311px;
+}
+
+.mySwiper-scrollbar {
+    margin-top: 10px;
+}
+
+.swiper-scrollbar {
+    background: none;
+}
+
+.swiper-scrollbar-drag {
+    background: #A6ABB2;
+    min-height: 6px;
+}

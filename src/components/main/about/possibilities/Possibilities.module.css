@@ -1,0 +1,13 @@
+.section {
+    padding: 24px 0;
+}
+
+.inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    max-width: 660px;
+    margin-top: 16px;
+}

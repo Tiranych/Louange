@@ -3,3 +3,10 @@
     line-height: 32px;
     font-weight: 600;
 }
+
+@media (max-width: 700px) {
+    .title {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}

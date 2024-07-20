@@ -10,13 +10,13 @@ import Possibilities from './possibilities/Possibilities.jsx';
 const About = () => {
     return(
         <section className={styles.section}>
-            <div className={styles.inner}>
+            <div>
                 <Title>
                     О студии
                 </Title>
                 <div className={styles.content}>
-                    <img src="/images/about/1.jpg" alt="Sewing machine" />
-                    <div>
+                    <img className={styles.img} src="/images/about/1.jpg" alt="Sewing machine" />
+                    <div className={styles.box}>
                         <p className={styles.text}>
                             LOUANGE — это собственная мастерская по пошиву, которая более 25 лет 
                             специализируется на авторском текстильном декорировании для ценителей индивидуальности. 

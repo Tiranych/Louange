@@ -18,3 +18,9 @@
     background: #A6ABB2;
     min-height: 6px;
 }
+
+@media (max-width: 550px) {
+    .swiper {
+        margin-top: 16px;
+    }
+}

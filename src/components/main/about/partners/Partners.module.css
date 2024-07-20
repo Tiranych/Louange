@@ -22,3 +22,13 @@
     background-color: #302E36;
     border-left: 1px solid #BDBDBD;
 }
+
+@media (max-width: 550px) {
+    .section {
+        padding-top: 12px;
+    }
+
+    .subtitle {
+        padding-bottom: 16px;
+    }
+}

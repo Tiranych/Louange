@@ -13,6 +13,7 @@
     font-weight: 700;
     line-height: 24px;
     margin-bottom: 24px;
+    min-width: 280px;
 }
 
 .input {

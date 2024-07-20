@@ -11,6 +11,7 @@ import Home from './main/home/Home.jsx';
 import Privacy from './main/privacy-policy/Privacy-policy.jsx';
 import Projects from './main/projects/Projects.jsx';
 import Services from './main/services/Services.jsx';
+import WindowDecor from './main/services/window-decor/WindowDecor.jsx';
 
 const App = () => {
 
@@ -28,6 +29,9 @@ const App = () => {
                             <Route path='services' element={<Services />}></Route>
                             <Route path='projects' element={<Projects />}></Route>
                             <Route path='privacy-policy' element={<Privacy />}></Route>
+                            <Route path='services/window-decor' element={<WindowDecor />}></Route>
+                            <Route path='services/upholstery' element={<WindowDecor />}></Route>
+                            <Route path='services/bed-linen' element={<WindowDecor />}></Route>
                         </Routes>
                     </Container>
                 </main>

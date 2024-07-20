@@ -8,7 +8,8 @@
 
 .content {
     display: flex;
-    gap: 0 64px;
+    justify-content: space-between;
+    gap: 16px;
 }
 
 .callToAct {
@@ -82,20 +83,20 @@
 .img {
     width: 100%;
     max-width: 736px;
+    max-height: 465px;
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 1100px) {
+    .content {
+        flex-wrap: wrap;
+    }
+
     .titles {
         display: none;
     }
 
-    .content {
-        justify-content: space-evenly;
-    }
-
     .box {
-        width: 100%;
-        max-width: 360px;
+        flex-grow: 1;
     }
 
     .callToAct {
@@ -106,30 +107,27 @@
         margin-bottom: 24px;
     }
 
-    .img {
-        width: 100%;
-        max-width: 360px;
-        object-fit: cover;
-    }
-    
-}
-
-@media (max-width: 800px) {
-    .content {
-        flex-wrap: wrap;
-        gap: 8px 16px;
-    }
-
-    .box,
     .form,
+    .text,
     .img {
         max-width: none;
     }
 }
 
+@media (max-width: 800px) {
+    .section {
+        padding: 0 0 60px;
+    }
+
+    .content {
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+}
+
 @media (max-width: 550px) {
     .section {
-        padding: 12px 0;
+        padding: 0 0 36px;
     }
     
     .img {

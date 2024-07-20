@@ -13,12 +13,11 @@
 .item {
     display: flex;
     flex-direction: column;
+    width: 100%;
     flex-basis: 416px;
     align-items: center;
-    padding: 24px 70px;
+    padding: 24px 16px;
     border-right: 1px solid #BDBDBD;
-    min-height: 230px;
-    height: 100%;
 }
 
 .item:last-child {
@@ -41,4 +40,32 @@
 
 .text + .text {
     margin-top: 6px;
+}
+
+@media (max-width: 1250px) {
+    .item {
+        min-height: 280px;
+    }
+}
+
+@media (max-width: 650px) {
+    .list,
+    .item {
+        border: none;
+    }
+
+    .list {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .item {
+        min-height: 0;
+    }
+}
+
+@media (max-width: 550px) {
+    .section {
+        padding: 12px 0;
+    }
 }

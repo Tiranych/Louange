@@ -11,3 +11,25 @@
     max-width: 660px;
     margin-top: 16px;
 }
+
+.img {
+    width: 100%;
+    max-width: 580px;
+}
+
+@media (max-width: 1250px) {
+    .inner {
+        flex-wrap: wrap;
+        gap: 16px 0;
+    }
+
+    .img, .text {
+        max-width: none;
+    }
+}
+
+@media (max-width: 550px) {
+    .section {
+        padding: 12px 0;
+    }
+}

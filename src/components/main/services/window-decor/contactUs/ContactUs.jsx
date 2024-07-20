@@ -1,14 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Subtitle from '../../../global/Subtitle.jsx';
+import Subtitle from '../../../../global/Subtitle.jsx';
 import * as styles from './ContactUs.module.css';
 
 const ContactUs = () => {
     return (
         <section className={styles.section}>
             <div className={styles.titles}>
-                <Subtitle>Свяжитесь с нами</Subtitle>
-                <p className={styles.subtitle}>Заполните форму, чтобы связаться с нами по вопросам сотрудничества или уточнить интересующие вас моменты</p>
+                <Subtitle>Начните работу сейчас</Subtitle>
+                <p className={styles.subtitle}>Заполните форму, чтобы перейти к первому этапу работы над вашим собственным проектом</p>
             </div>
             <div className={styles.content}>
                 <div className={styles.box}>

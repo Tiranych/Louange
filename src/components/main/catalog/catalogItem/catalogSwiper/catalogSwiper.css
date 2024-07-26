@@ -1,0 +1,110 @@
+.catalogSwiper {
+    margin-top: 0;
+    height: 950px;
+}
+
+.catalogSwiper .swiper-wrapper{
+    justify-content: flex-start;
+    gap: 36px 12px;
+}
+
+.catalogSwiper .swiper-slide {
+    width: 100% !important;
+    height: 258px !important;
+    min-width: 0;
+    max-width: 222px;
+}
+
+.catalogSwiper .swiper-pagination {
+    max-width: 220px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.catalogSwiper .swiper-pagination-bullet {
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    width: 34px;
+    height: 34px;
+    padding: 5px 0;
+    margin-right: 8px;
+    background: transparent;
+    color: #fff;
+    opacity: 1;
+}
+
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 8px);
+    margin-left: 0;
+}
+
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet:last-child {
+    margin: 0;
+}
+
+.catalogSwiper .swiper-pagination-bullet:nth-child(2) {
+    margin-right: 42px;
+}
+
+.catalogSwiper .swiper-pagination-bullet-active {
+    background: #302E36;
+}
+
+.catalogSwiper .pagination-ellipsis {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+}
+
+.catalogSwiper .swiper-navigation {
+    position: absolute;
+    z-index: 15;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 330px;
+}
+
+.catalogSwiper .swiper-button-prev,
+.catalogSwiper .swiper-button-next {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    color: transparent;
+}
+
+.catalogSwiper .swiper-button-prev {
+    background-image: url('/public/images/catalog/arrow-left.svg');
+}
+
+.catalogSwiper .swiper-button-next {
+    background-image: url('/public/images/catalog/arrow-right.svg');
+}
+
+@media (max-width: 1340px) {
+    .catalogSwiper .swiper-slide {
+        max-width: 240px;
+    }
+}
+
+@media (max-width: 800px) {
+    .catalogSwiper {
+        height: 920px;
+    }
+}
+
+@media (max-width: 500px) {
+    .catalogSwiper {
+        height: 740px;
+    }
+
+    .catalogSwiper .swiper-slide {
+        max-width: 156px;
+        height: 208px !important;
+    }
+}

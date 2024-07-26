@@ -1,0 +1,22 @@
+.btn {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #fff;
+    padding: 12px 32px;
+    border: 1px solid #fff;
+    min-width: 230px;
+    max-height: 50px;
+    transition: all .3s;
+}
+
+.btn:hover {
+    color: #25232B;
+    background-color: #fff;
+}
+
+@media (max-width: 700px) {
+    .btn {
+        flex-grow: 1;
+    }
+}

@@ -1,14 +1,14 @@
-import React from 'react';
-import * as styles from './Catalog.module.css';
-import Title from '../../global/Title.jsx';
-import FirstList from './FirstList.jsx';
-import SecondList from './SecondList.jsx';
-import Button from '../../global/Button.jsx';
+import React from "react";
+import * as styles from './CatalogItem.module.css';
+import Title from '../../../global/Title.jsx'
+import Button from '../../../global/Button.jsx';
+import Categories from './categories/Categories.jsx';
+import MySwiper from './catalogSwiper/catalogSwiper.jsx';
 
-const Catalog = () => {
+const CatalogItem = () => {
     return (
         <section className={styles.section}>
-            <Title>Каталог</Title>
+            <Title>Ткани</Title>
             <div className={styles.box}>
                 <p>
                     Мы работаем с прямыми поставками текстиля, мебели и предметов интерьера от ведущих мировых производителей,
@@ -18,11 +18,11 @@ const Catalog = () => {
                 <Button />
             </div>
             <div className={styles.content}>
-                <FirstList />
-                <SecondList />
+                <Categories />
+                <MySwiper />
             </div>
         </section>
     )
 }
 
-export default Catalog;
+export default CatalogItem;

@@ -2,6 +2,7 @@ import React from 'react';
 import * as styles from './Services.module.css';
 import Title from '../../global/Title.jsx';
 import { Link } from 'react-router-dom';
+import Button from '../../global/Button.jsx';
 
 const Services = () => {
     return(
@@ -13,7 +14,7 @@ const Services = () => {
                     как для частных, так и для корпоративных клиентов, услугу «Выезд дизайнера». 
                     Осуществляем замеры, разработку эскизов, пошив, монтаж и навеску готовых изделий.
                 </p>
-                <button className={styles.btn}>Оставить заявку</button>
+                <Button />
             </div>
             <ul className={styles.list}>
                 <li className={styles.item}>

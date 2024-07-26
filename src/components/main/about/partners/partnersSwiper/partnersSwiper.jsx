@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Scrollbar } from 'swiper/modules';
 import 'swiper/css/scrollbar';
 import 'swiper/css';
-import './MySwiper.css';
+import './partnersSwiper.css';
 
 const MySwiper = () => {
     const params = {

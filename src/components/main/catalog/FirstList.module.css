@@ -1,0 +1,37 @@
+.firstlist {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 16px;
+}
+
+.item {
+    position: relative;
+}
+
+.img {
+    width: 100%;
+    min-height: 280px;
+}
+
+.caption {
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+@media (max-width: 1340px) {
+    .firstlist {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 700px) {
+    .firstlist {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

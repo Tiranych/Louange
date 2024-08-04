@@ -1,0 +1,17 @@
+.slide {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+@media (max-width: 650px) {
+    .slide {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .slide {
+        grid-template-columns: repeat(1, 328px);
+    }
+}

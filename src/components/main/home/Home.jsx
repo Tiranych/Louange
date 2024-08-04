@@ -1,8 +1,13 @@
 import React from 'react';
+import Container from '../../global/Container.jsx';
 
 const Home = () => {
     return (
-        <section>1helПро</section>
+        <section>
+            <Container>
+                1helПро
+            </Container>
+        </section>
     )
 }
 

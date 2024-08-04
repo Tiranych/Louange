@@ -1,0 +1,74 @@
+.carousel_1.carousel {
+    padding-bottom: 24px;
+    counter-reset: MyCounter;
+}
+
+.carousel_1 .carousel-inner {
+    height: 920px;
+}
+
+.carousel_1 .carousel-indicators {
+    height: 34px;
+    margin: 0;
+    max-width: 340px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.carousel_1 .carousel-indicators [data-bs-target] {
+    counter-increment: MyCounter;
+    position: relative;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    color: #FFF;
+    background-color: #25232B;
+    text-indent: 0;
+    opacity: 1;
+    margin: 0;
+    border: none;
+}
+
+.carousel_1 .carousel-indicators .active{
+    background-color: #302E36;
+}
+
+.carousel_1 .carousel-indicators [data-bs-target]::after {
+    content: counter(MyCounter);
+}
+
+.carousel_1 .carousel-control-prev, .carousel-control-next {
+    align-items: flex-end;
+    top: auto;
+    opacity: 1;
+}
+
+.carousel_1 .carousel-control-prev-icon {
+    background-image: url('/public/images/projects/arrow-left.svg');
+}
+
+.carousel_1 .carousel-control-next-icon {
+    background-image: url('/public/images/projects/arrow-right.svg');
+}
+
+@media (max-width: 800px) {
+    .carousel_1 .carousel-inner {
+        height: 820px;
+    }
+}
+
+@media (max-width: 650px) {
+    .carousel_1 .carousel-inner {
+        height: 1350px;
+    }
+}
+
+@media (max-width: 500px) {
+    .carousel_1 .carousel-inner {
+        height: 2400px;
+    }
+
+    .carousel_1 .carousel-indicators {
+        max-width: 200px;
+    }
+}

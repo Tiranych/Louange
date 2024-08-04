@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './components/App.jsx';
+import App from './App.jsx';
 import "./components/global/styles/fonts.css";
 import "./components/global/styles/reset.css";
 import * as styles from './index.module.css';

@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import HeaderSlider from './slider/HeaderSlider.jsx';
+import Slogan from './slogan/Slogan.jsx';
 import { Link, useLocation } from 'react-router-dom';
 import Container from '../global/Container.jsx';
 import * as styles from './Header.module.css';
@@ -42,7 +44,9 @@ const Header = () => {
                         </ul>
                     </nav>
                 </div>
+                {isHomePage && <Slogan />}
             </Container>
+            {isHomePage && <HeaderSlider />}
         </header>
     )
 }

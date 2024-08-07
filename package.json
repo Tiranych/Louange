@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "./src/index.jsx",
   "scripts": {
-    "serve": "webpack serve --mode development",
-    "build": "webpack --mode production"
+    "dev": "webpack serve --mode development",
+    "prod": "webpack --mode production"
   },
   "author": "",
   "license": "ISC",

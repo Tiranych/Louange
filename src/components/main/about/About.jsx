@@ -3,9 +3,9 @@ import Container from '../../global/Container.jsx';
 import Title from '../../global/Title.jsx';
 import * as styles from './About.module.css';
 import Approach from './approach/Approach.jsx';
-import ContactUs from './contactUs/ContactUs.jsx';
+import ContactUs from '../../global/ContactUs.jsx';
 import Cooperation from './cooperation/Cooperation.jsx';
-import Partners from './partners/Partners.jsx';
+import Partners from '../../global/partners/Partners.jsx';
 import Possibilities from './possibilities/Possibilities.jsx';
 
 const About = () => {

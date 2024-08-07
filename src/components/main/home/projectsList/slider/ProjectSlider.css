@@ -1,0 +1,120 @@
+.homePageSlider .slick-slide .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(37, 35, 43, 0.7);
+}
+
+.homePageSlider .slick-center .overlay {
+    display: none;
+}
+
+.homePageSlider .box {
+    position: relative;
+}
+
+.homePageSlider .text {
+    text-align: center;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+
+.homePageSlider .img {
+    min-width: 500px;
+    max-height: 666px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.homePageSlider .slick-prev,
+.homePageSlider .slick-next {
+    width: 48px;
+    height: 48px;
+    z-index: 5;
+}
+
+.homePageSlider .slick-prev {
+    left: 25%;
+}
+
+.homePageSlider .slick-next {
+    right: 25%;
+}
+
+.homePageSlider .slick-prev::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url('/public/images/projects/project/arrow-left.svg');
+}
+
+.homePageSlider .slick-next::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url('/public/images/projects/project/arrow-right.svg');
+}
+
+@media (max-width: 1440px) {
+    .homePageSlider .slick-prev {
+        left: 15%;
+    }
+    
+    .homePageSlider .slick-next {
+        right: 15%;
+    }
+}
+
+@media (max-width: 850px) {
+    .homePageSlider .img {
+        min-width: 380px;
+        max-height: 506px;
+    }
+}
+
+@media (max-width: 755px) {
+
+    .homePageSlider .slick-list {
+        overflow-x: clip;
+        overflow-y: visible;
+    }
+
+    .homePageSlider .slick-center {
+        transition: all .5s;
+    }
+
+    .homePageSlider .slick-current {
+        transform: translateY(-40px);
+    }
+    
+    .homePageSlider .img {
+        min-width: 0;
+        width: 100%;
+        max-width: 280px;
+        max-height: 370px;
+    }
+
+    .homePageSlider .text {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+
+    .homePageSlider .slick-prev {
+        top: auto;
+        left: 30%;
+        bottom: -40px;
+    }
+    
+    .homePageSlider .slick-next {
+        top: auto;
+        right: 30%;
+        bottom: -40px;
+    }
+}

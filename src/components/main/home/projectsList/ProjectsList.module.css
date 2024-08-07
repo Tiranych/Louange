@@ -1,0 +1,31 @@
+.section {
+    padding: 24px 0 16px;
+}
+
+.text {
+    margin: 8px 0 32px;
+}
+
+@media(max-width: 900px) {
+    .section {
+        padding: 24px 0 8px;
+    }
+
+    .text {
+        padding: 8px 0 16px;
+        margin: 0;
+    }
+}
+
+@media (max-width: 755px) {
+    .text {
+        padding: 8px 0 16px;
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width: 600px) {
+    .section {
+        padding: 12px 0 8px;
+    }
+}

@@ -1,4 +1,4 @@
-.slick-slide .overlay {
+.center .slick-slide .overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -7,37 +7,37 @@
     background-color: rgba(37, 35, 43, 0.7);
 }
 
-.slick-center .overlay {
+.center .slick-center .overlay {
     display: none;
 }
 
-.box {
+.center .box {
     position: relative;
 }
 
-.img {
+.center .img {
     min-width: 500px;
     max-height: 400px;
     object-fit: cover;
     margin: 0 auto;
 }
 
-.slick-prev,
-.slick-next {
+.center .slick-prev,
+.center .slick-next {
     width: 48px;
     height: 48px;
     z-index: 5;
 }
 
-.slick-prev {
+.center .slick-prev {
     left: 28%;
 }
 
-.slick-next {
+.center .slick-next {
     right: 28%;
 }
 
-.slick-prev::before {
+.center .slick-prev::before {
     content: '';
     display: block;
     width: 100%;
@@ -45,7 +45,7 @@
     background-image: url('/public/images/projects/project/arrow-left.svg');
 }
 
-.slick-next::before {
+.center .slick-next::before {
     content: '';
     display: block;
     width: 100%;
@@ -54,44 +54,44 @@
 }
 
 @media (max-width: 1440px) {
-    .slick-prev {
+    .center .slick-prev {
         left: 10%;
     }
     
-    .slick-next {
+    .center .slick-next {
         right: 10%;
     }
 }
 
 @media (max-width: 755px) {
 
-    .slick-list {
+    .center .slick-list {
         overflow-x: clip;
         overflow-y: visible;
     }
 
-    .slick-center {
+    .center .slick-center {
         transition: all .5s;
     }
 
-    .slick-current {
+    .center .slick-current {
         transform: translateY(-40px);
     }
     
-    .img {
+    .center .img {
         min-width: 0;
         width: 100%;
         max-width: 300px;
         max-height: 240px;
     }
 
-    .slick-prev {
+    .center .slick-prev {
         top: auto;
         left: 35%;
         bottom: -40px;
     }
     
-    .slick-next {
+    .center .slick-next {
         top: auto;
         right: 35%;
         bottom: -40px;

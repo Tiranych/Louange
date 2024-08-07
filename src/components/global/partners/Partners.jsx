@@ -1,5 +1,5 @@
 import React from 'react';
-import Subtitle from '../../../global/Subtitle.jsx';
+import Subtitle from '../Subtitle.jsx';
 import * as styles from './Partners.module.css';
 import MySwiper from './partnersSwiper/partnersSwiper.jsx';
 

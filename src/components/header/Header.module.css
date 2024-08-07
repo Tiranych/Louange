@@ -4,8 +4,8 @@
 }
 
 .header_home {
-    background: linear-gradient(rgba(0, 0, 0, 0.4) 31%, rgba(102, 102, 102, 0) 100%);
     min-height: 56px;
+    height: 100vh;
 }
 
 .burger {

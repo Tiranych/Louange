@@ -1,0 +1,59 @@
+.slogan {
+    position: absolute;
+    top: 276px;
+}
+
+.title {
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: 500;
+    padding-bottom: 8px;
+}
+
+.text {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 600;
+    max-width: 700px;
+    padding: 8px 0 24px;
+}
+
+.btn {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #fff;
+    padding: 16px 48px;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+@media (max-width: 1350px) {
+    .slogan {
+        left: 24px;
+    }
+
+    .text {
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 650px) {
+    .slogan {
+        left: 16px;
+        right: 16px;
+    }
+
+    .title {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .text {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}

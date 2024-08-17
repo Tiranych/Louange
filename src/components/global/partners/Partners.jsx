@@ -1,7 +1,7 @@
 import React from 'react';
-import Subtitle from '../Subtitle.jsx';
+import Subtitle from '../Subtitle';
 import * as styles from './Partners.module.css';
-import MySwiper from './partnersSwiper/partnersSwiper.jsx';
+import MySwiper from './partnersSwiper/partnersSwiper';
 
 const Partners = () => {
     return (

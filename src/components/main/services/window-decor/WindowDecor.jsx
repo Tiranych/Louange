@@ -1,10 +1,10 @@
 import React from 'react';
 import * as styles from './WindowDecor.module.css';
-import Container from '../../../global/Container.jsx';
-import Title from '../../../global/Title.jsx';
-import Steps from './steps/Steps.jsx';
-import ContactUs from './contactUs/ContactUs.jsx';
-import Subtitle from '../../../global/Subtitle.jsx';
+import Container from '../../../global/Container';
+import Title from '../../../global/Title';
+import Steps from './steps/Steps';
+import ContactUs from './contactUs/ContactUs';
+import Subtitle from '../../../global/Subtitle';
 
 const WindowDecor = () => {
     return (

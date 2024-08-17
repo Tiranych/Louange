@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Container from '../../global/Container.jsx';
+import Container from '../../global/Container';
 import * as styles from './Privacy-policy.module.css';
-import List from './list/List.jsx';
+import List from './list/List';
 
 const Privacy = () => {
     return (

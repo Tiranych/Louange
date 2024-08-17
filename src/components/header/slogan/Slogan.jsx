@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import * as styles from './Slogan.module.css';
-import Modal from "../../global/Modal.jsx";
+import Modal from "../../global/Modal";
 
 const Slogan = () => {
 

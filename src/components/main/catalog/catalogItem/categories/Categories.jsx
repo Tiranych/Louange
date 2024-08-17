@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import Item from "./item/Item.jsx";
+import Item from "./item/Item";
 import * as styles from './Categories.module.css';
 
 const Categories = () => {

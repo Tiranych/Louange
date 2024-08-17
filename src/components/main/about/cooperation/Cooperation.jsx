@@ -1,5 +1,5 @@
 import React from 'react';
-import Subtitle from '../../../global/Subtitle.jsx';
+import Subtitle from '../../../global/Subtitle';
 import * as styles from './Cooperation.module.css';
 
 const Cooperation = () => {

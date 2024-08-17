@@ -1,5 +1,5 @@
 import React from "react";
-import Title from "../../../global/Title.jsx";
+import Title from "../../../global/Title";
 import * as styles from './ServiceList.module.css';
 
 const ServiceList = () => {

@@ -1,10 +1,10 @@
 import React from 'react';
-import Container from '../../global/Container.jsx';
-import Form from '../../global/Form.jsx';
-import Subtitle from '../../global/Subtitle.jsx';
-import Title from '../../global/Title.jsx';
+import Container from '../../global/Container';
+import Form from '../../global/Form';
+import Subtitle from '../../global/Subtitle';
+import Title from '../../global/Title';
 import * as styles from './Contacts.module.css';
-import MyMap from './map/Map.jsx';
+import MyMap from './map/Map';
 
 const Contacts = () => {
     return (

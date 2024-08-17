@@ -1,9 +1,9 @@
 import React from 'react';
-import * as styles from './Services.module.css';
-import Title from '../../global/Title.jsx';
 import { Link } from 'react-router-dom';
-import Button from '../../global/Button.jsx';
-import Container from '../../global/Container.jsx';
+import Title from '../../global/Title';
+import Button from '../../global/Button';
+import Container from '../../global/Container';
+import * as styles from './Services.module.css';
 
 const Services = () => {
     return(

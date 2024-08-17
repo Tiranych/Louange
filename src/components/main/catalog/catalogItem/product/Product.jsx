@@ -1,10 +1,10 @@
 import React from "react";
 import * as styles from './Product.module.css';
-import Title from '../../../../global/Title.jsx';
-import Container from '../../../../global/Container.jsx';
-import Subtitle from '../../../../global/Subtitle.jsx';
-import Button from '../../../../global/Button.jsx';
-import ProductSwiper from './productSwiper/ProductSwiper.jsx';
+import Title from '../../../../global/Title';
+import Container from '../../../../global/Container';
+import Subtitle from '../../../../global/Subtitle';
+import Button from '../../../../global/Button';
+import ProductSwiper from './productSwiper/ProductSwiper';
 
 const Product = () => {
     return (

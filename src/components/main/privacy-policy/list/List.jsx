@@ -1,11 +1,11 @@
 import React from "react";
 import * as styles from './List.module.css';
-import Actions from './rules/Actions.jsx';
-import Conditions from './rules/Conditions.jsx';
-import PersonalChanges from './rules/PersonalChanges.jsx';
-import PersonalInfoRules from './rules/PersonalInfoRules.jsx';
-import PolicyChanges from './rules/PolicyChanges.jsx';
-import Purposes from "./rules/Purposes.jsx";
+import Actions from './rules/Actions';
+import Conditions from './rules/Conditions';
+import PersonalChanges from './rules/PersonalChanges';
+import PersonalInfoRules from './rules/PersonalInfoRules';
+import PolicyChanges from './rules/PolicyChanges';
+import Purposes from "./rules/Purposes";
 
 const List = ({link}) => {
     return (

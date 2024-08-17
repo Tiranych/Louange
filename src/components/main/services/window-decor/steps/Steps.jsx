@@ -1,6 +1,6 @@
 import React from "react";
 import * as styles from './Steps.module.css';
-import Subtitle from "../../../../global/Subtitle.jsx";
+import Subtitle from "../../../../global/Subtitle";
 
 const Steps = () => {
     return (

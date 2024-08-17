@@ -1,12 +1,12 @@
 import React from 'react';
-import Container from '../../global/Container.jsx';
-import Title from '../../global/Title.jsx';
+import Container from '../../global/Container';
+import Title from '../../global/Title';
 import * as styles from './About.module.css';
-import Approach from './approach/Approach.jsx';
-import ContactUs from '../../global/ContactUs.jsx';
-import Cooperation from './cooperation/Cooperation.jsx';
-import Partners from '../../global/partners/Partners.jsx';
-import Possibilities from './possibilities/Possibilities.jsx';
+import Approach from './approach/Approach';
+import ContactUs from '../../global/ContactUs';
+import Cooperation from './cooperation/Cooperation';
+import Partners from '../../global/partners/Partners';
+import Possibilities from './possibilities/Possibilities';
 
 const About = () => {
     return(

@@ -1,12 +1,12 @@
 import React from 'react';
-import Container from '../../global/Container.jsx';
-import ServiceList from './serviceList/ServiceList.jsx';
-import WhyLouange from './whyLouange/WhyLouange.jsx';
-import ProjectsList from './projectsList/ProjectsList.jsx';
-import OtherProjects from './otherProjects/OtherProjects.jsx';
-import Fabrics from './fabrics/Fabrics.jsx';
-import ContactUs from '../../global/ContactUs.jsx';
-import Partners from '../../global/partners/Partners.jsx';
+import Container from '../../global/Container';
+import ServiceList from './serviceList/ServiceList';
+import WhyLouange from './whyLouange/WhyLouange';
+import ProjectsList from './projectsList/ProjectsList';
+import OtherProjects from './otherProjects/OtherProjects';
+import Fabrics from './fabrics/Fabrics';
+import ContactUs from '../../global/ContactUs';
+import Partners from '../../global/partners/Partners';
 import * as styles from './Home.module.css';
 
 const Home = () => {

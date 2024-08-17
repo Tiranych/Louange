@@ -1,7 +1,7 @@
 import React from "react";
 import * as styles from './Fabrics.module.css';
 import { Link } from "react-router-dom";
-import Title from "../../../global/Title.jsx";
+import Title from "../../../global/Title";
 
 const Fabrics = () => {
     return (

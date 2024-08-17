@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Subtitle from './Subtitle.jsx';
+import Subtitle from './Subtitle';
 import * as styles from './ContactUs.module.css';
 
 const ContactUs = () => {

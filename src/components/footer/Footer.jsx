@@ -1,8 +1,8 @@
 import React from 'react';
-import Container from '../global/Container.jsx';
+import Container from '../global/Container';
 import * as styles from './Footer.module.css';
-import Info from './info/Info.jsx';
-import Nav from './nav/Nav.jsx';
+import Info from './info/Info';
+import Nav from './nav/Nav';
 
 const Footer = () => {
     return (

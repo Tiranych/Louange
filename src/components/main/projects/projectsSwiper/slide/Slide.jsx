@@ -1,6 +1,6 @@
 import React from "react";
 import * as styles from './Slide.module.css';
-import Box from "./Box.jsx";
+import Box from "./Box";
 
 const Slide = () => {
     return (

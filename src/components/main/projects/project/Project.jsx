@@ -1,8 +1,8 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
-import Container from '../../../global/Container.jsx';
-import Title from '../../../global/Title.jsx';
-import ProjectSlider from './projectSlider/projectSlider.jsx';
+import Container from '../../../global/Container';
+import Title from '../../../global/Title';
+import ProjectSlider from './projectSlider/projectSlider';
 import * as styles from './Project.module.css';
 
 const Project = () => {

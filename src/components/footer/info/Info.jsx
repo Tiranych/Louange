@@ -4,7 +4,7 @@ import * as styles from './Info.module.css';
 const Info = () => {
     return (
         <div className={styles.inner}>
-            <a href={`/`}><img className={styles.logo} src="/images/footer/footer-logo.svg" alt="Footer-logo" /></a>
+            <a href={`/`}><img className={styles.logo} src="./images/footer/footer-logo.svg" alt="Footer-logo" /></a>
             <div>
                 <div>
                     <p className={styles.subtitle}>График работы</p>
@@ -15,7 +15,7 @@ const Info = () => {
                     <a className={styles.text} href="tel:84991108022">+7 499 110-80-22</a>
                 </div>
                 <a href="#">
-                    <img src="/images/footer/instagram.svg" alt="Social-instagram" />
+                    <img src="./images/footer/instagram.svg" alt="Social-instagram" />
                 </a>
             </div>
         </div>

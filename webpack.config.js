@@ -4,10 +4,14 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     entry: './src/index.jsx',
     output: {
-        path: path.join(__dirname, 'public'),
-        publicPath: '/',
+        path: path.join(__dirname, 'dist'),
         filename: 'bundle.js',
     },
+    plugins: [
+        new HtmlWebpackPlugin({
+            template: './src/index.html',
+        }),
+    ],
     module: {
         rules: [
             {
@@ -36,30 +40,22 @@ module.exports = {
             {
                 test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
-                use: ["babel-loader",],
+                use: {
+                    loader: "babel-loader",
+                    options: {
+                        presets: ["@babel/preset-env", "@babel/preset-react"]
+                    }
+                },
             },
             {
-                test: /\.(png|jpg|gif)$/i,
-                use: [
-                    {
-                        loader: "url-loader",
-                        options: {
-                            limit: 8192,
-                            encoding: true,
-                        },
-                    },
-                ],
+                test: /\.(png|svg|jpg|jpeg|gif|)$/i,
+                type: 'asset/resource',
             },
         ],
     },
     resolve: {
         extensions: ['.js', '.jsx'],
     },
-    plugins: [
-        new HtmlWebpackPlugin({
-            template: path.resolve(__dirname, './src/index.html'),
-        }),
-    ],
     devServer: {
         historyApiFallback: true,
     },

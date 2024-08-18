@@ -19,23 +19,23 @@ const MySwiper = () => {
     return (
         <>
             <Swiper {...params}>
-                <SwiperSlide><div style={{backgroundImage: `url("/images/about/partner-1.svg")`, height: '128px'}}></div></SwiperSlide>
-                <SwiperSlide><div style={{backgroundImage: `url("/images/about/partner-2.svg")`, height: '128px'}}></div></SwiperSlide>
-                <SwiperSlide><div style={{backgroundImage: `url("/images/about/partner-3.svg")`, height: '128px'}}></div></SwiperSlide>
-                <SwiperSlide><div style={{backgroundImage: `url("/images/about/partner-4.svg")`, height: '128px'}}></div></SwiperSlide>
-                <SwiperSlide><div style={{backgroundImage: `url("/images/about/partner-1.svg")`, height: '128px'}}></div></SwiperSlide>
-                <SwiperSlide><div style={{backgroundImage: `url("/images/about/partner-2.svg")`, height: '128px'}}></div></SwiperSlide>
-                <SwiperSlide><div style={{backgroundImage: `url("/images/about/partner-3.svg")`, height: '128px'}}></div></SwiperSlide>
-                <SwiperSlide><div style={{backgroundImage: `url("/images/about/partner-4.svg")`, height: '128px'}}></div></SwiperSlide>
-                <SwiperSlide><div style={{backgroundImage: `url("/images/about/partner-1.svg")`, height: '128px'}}></div></SwiperSlide>
-                <SwiperSlide><div style={{backgroundImage: `url("/images/about/partner-2.svg")`, height: '128px'}}></div></SwiperSlide>
-                <SwiperSlide><div style={{backgroundImage: `url("/images/about/partner-3.svg")`, height: '128px'}}></div></SwiperSlide>
-                <SwiperSlide><div style={{backgroundImage: `url("/images/about/partner-4.svg")`, height: '128px'}}></div></SwiperSlide>
-                <SwiperSlide><div style={{backgroundImage: `url("/images/about/partner-1.svg")`, height: '128px'}}></div></SwiperSlide>
-                <SwiperSlide><div style={{backgroundImage: `url("/images/about/partner-2.svg")`, height: '128px'}}></div></SwiperSlide>
-                <SwiperSlide><div style={{backgroundImage: `url("/images/about/partner-3.svg")`, height: '128px'}}></div></SwiperSlide>
-                <SwiperSlide><div style={{backgroundImage: `url("/images/about/partner-4.svg")`, height: '128px'}}></div></SwiperSlide>
-                <SwiperSlide><div style={{backgroundImage: `url("/images/about/partner-1.svg")`, height: '128px'}}></div></SwiperSlide>
+                <SwiperSlide><div style={{backgroundImage: `url("./images/about/partner-1.svg")`, height: '128px'}}></div></SwiperSlide>
+                <SwiperSlide><div style={{backgroundImage: `url("./images/about/partner-2.svg")`, height: '128px'}}></div></SwiperSlide>
+                <SwiperSlide><div style={{backgroundImage: `url("./images/about/partner-3.svg")`, height: '128px'}}></div></SwiperSlide>
+                <SwiperSlide><div style={{backgroundImage: `url("./images/about/partner-4.svg")`, height: '128px'}}></div></SwiperSlide>
+                <SwiperSlide><div style={{backgroundImage: `url("./images/about/partner-1.svg")`, height: '128px'}}></div></SwiperSlide>
+                <SwiperSlide><div style={{backgroundImage: `url("./images/about/partner-2.svg")`, height: '128px'}}></div></SwiperSlide>
+                <SwiperSlide><div style={{backgroundImage: `url("./images/about/partner-3.svg")`, height: '128px'}}></div></SwiperSlide>
+                <SwiperSlide><div style={{backgroundImage: `url("./images/about/partner-4.svg")`, height: '128px'}}></div></SwiperSlide>
+                <SwiperSlide><div style={{backgroundImage: `url("./images/about/partner-1.svg")`, height: '128px'}}></div></SwiperSlide>
+                <SwiperSlide><div style={{backgroundImage: `url("./images/about/partner-2.svg")`, height: '128px'}}></div></SwiperSlide>
+                <SwiperSlide><div style={{backgroundImage: `url("./images/about/partner-3.svg")`, height: '128px'}}></div></SwiperSlide>
+                <SwiperSlide><div style={{backgroundImage: `url("./images/about/partner-4.svg")`, height: '128px'}}></div></SwiperSlide>
+                <SwiperSlide><div style={{backgroundImage: `url("./images/about/partner-1.svg")`, height: '128px'}}></div></SwiperSlide>
+                <SwiperSlide><div style={{backgroundImage: `url("./images/about/partner-2.svg")`, height: '128px'}}></div></SwiperSlide>
+                <SwiperSlide><div style={{backgroundImage: `url("./images/about/partner-3.svg")`, height: '128px'}}></div></SwiperSlide>
+                <SwiperSlide><div style={{backgroundImage: `url("./images/about/partner-4.svg")`, height: '128px'}}></div></SwiperSlide>
+                <SwiperSlide><div style={{backgroundImage: `url("./images/about/partner-1.svg")`, height: '128px'}}></div></SwiperSlide>
             </Swiper>
             <div className='mySwiper-scrollbar'></div>
         </>

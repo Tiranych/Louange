@@ -17,7 +17,7 @@ const About = () => {
                         О студии
                     </Title>
                     <div className={styles.content}>
-                        <img className={styles.img} src="/images/about/1.jpg" alt="Sewing machine" />
+                        <img className={styles.img} src="./images/about/1.jpg" alt="Sewing machine" />
                         <div className={styles.box}>
                             <p className={styles.text}>
                                 LOUANGE — это собственная мастерская по пошиву, которая более 25 лет 

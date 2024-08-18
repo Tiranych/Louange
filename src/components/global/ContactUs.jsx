@@ -14,11 +14,11 @@ const ContactUs = () => {
                 <div className={styles.box}>
                     <p className={styles.callToAct}>Сделайте ваш дизайн уникальным вместе с Louange</p>
                     <form className={styles.form}>
-                        <input className={styles.input} required type="text" placeholder='Ваше имя' />
-                        <input className={styles.input} required type="text" placeholder='Ваш e-mail' />
-                        <textarea className={styles.input + ' ' + styles.textarea} required placeholder='Опишите ваш проект'></textarea>
+                        <input className={styles.input} type="text" name='text' required placeholder='Ваше имя' />
+                        <input className={styles.input} type="email" name='email' autoComplete='off' required placeholder='Ваш e-mail' />
+                        <textarea className={styles.input + ' ' + styles.textarea} name='textarea' required placeholder='Опишите ваш проект'></textarea>
                         <div className={styles.row}>
-                            <input className={styles.checkbox} required type="checkbox" />
+                            <input className={styles.checkbox} name='checkbox' required type="checkbox" />
                             <p className={styles.text}>Я согласен с <Link to={`/privacy-policy`} className={styles.link}>политикой обработки персональных данных</Link> и даю
                                 <Link to={`/privacy-policy`} className={styles.link}> согласие</Link> на обработку своих персональных данных
                             </p>
@@ -26,7 +26,7 @@ const ContactUs = () => {
                         <button className={styles.btn} type='submit'>Отправить заявку</button>
                     </form>
                 </div>
-                <img className={styles.img} src="/images/about/3.jpg" alt="Cornice" />
+                <img className={styles.img} src="./images/about/3.jpg" alt="Cornice" />
             </div>
         </section>
     )

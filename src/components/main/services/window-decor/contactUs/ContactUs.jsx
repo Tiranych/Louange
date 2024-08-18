@@ -26,7 +26,7 @@ const ContactUs = () => {
                         <button className={styles.btn} type='submit'>Отправить заявку</button>
                     </form>
                 </div>
-                <img className={styles.img} src="/images/about/3.jpg" alt="Cornice" />
+                <img className={styles.img} src="./images/about/3.jpg" alt="Cornice" />
             </div>
         </section>
     )

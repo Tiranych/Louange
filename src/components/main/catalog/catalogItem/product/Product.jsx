@@ -31,10 +31,10 @@ const Product = () => {
                         </div>
                     </div>
                     <ul className={styles.list}>
-                        <li className={styles.item}><img className={styles.img} src="/images/catalog/product/1.jpg" alt="product-1" /></li>
-                        <li className={styles.item}><img className={styles.img} src="/images/catalog/product/2.jpg" alt="product-2" /></li>
-                        <li className={styles.item}><img className={styles.img} src="/images/catalog/product/3.jpg" alt="product-3" /></li>
-                        <li className={styles.item}><img className={styles.img} src="/images/catalog/product/4.jpg" alt="product-4" /></li>
+                        <li className={styles.item}><img className={styles.img} src="./images/catalog/product/1.jpg" alt="product-1" /></li>
+                        <li className={styles.item}><img className={styles.img} src="./images/catalog/product/2.jpg" alt="product-2" /></li>
+                        <li className={styles.item}><img className={styles.img} src="./images/catalog/product/3.jpg" alt="product-3" /></li>
+                        <li className={styles.item}><img className={styles.img} src="./images/catalog/product/4.jpg" alt="product-4" /></li>
                     </ul>
                 </div>
             </Container>

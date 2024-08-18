@@ -15,6 +15,8 @@ import Services from './components/main/services/Services';
 import WindowDecor from './components/main/services/window-decor/WindowDecor';
 import Product from './components/main/catalog/catalogItem/product/Product';
 
+import {ROUTES} from './components/global/routes';
+
 const App = () => {
 
     return (
@@ -24,18 +26,18 @@ const App = () => {
                 <main className={styles.main}>
                     <Routes>
                         <Route index element={<Home />}></Route>
-                        <Route path='contacts' element={<Contacts />}></Route>
-                        <Route path='catalog' element={<Catalog />}></Route>
-                        <Route path='catalog/entry' element={<CatalogItem />}></Route>
-                        <Route path='catalog/entry/product' element={<Product />}></Route>
-                        <Route path='about' element={<About />}></Route>
-                        <Route path='services' element={<Services />}></Route>
-                        <Route path='projects' element={<Projects />}></Route>
-                        <Route path='projects/project' element={<Project />}></Route>
-                        <Route path='privacy-policy' element={<Privacy />}></Route>
-                        <Route path='services/window-decor' element={<WindowDecor />}></Route>
-                        <Route path='services/upholstery' element={<WindowDecor />}></Route>
-                        <Route path='services/bed-linen' element={<WindowDecor />}></Route>
+                        <Route path={ROUTES.CONTACTS} element={<Contacts />}></Route>
+                        <Route path='/catalog' element={<Catalog />}></Route>
+                        <Route path='/catalog/entry' element={<CatalogItem />}></Route>
+                        <Route path='/catalog/entry/product' element={<Product />}></Route>
+                        <Route path='/about' element={<About />}></Route>
+                        <Route path='/services' element={<Services />}></Route>
+                        <Route path='/projects' element={<Projects />}></Route>
+                        <Route path='/projects/project' element={<Project />}></Route>
+                        <Route path='/privacy-policy' element={<Privacy />}></Route>
+                        <Route path='/services/window-decor' element={<WindowDecor />}></Route>
+                        <Route path='/services/upholstery' element={<WindowDecor />}></Route>
+                        <Route path='/services/bed-linen' element={<WindowDecor />}></Route>
                     </Routes>
                 </main>
                 <Footer />

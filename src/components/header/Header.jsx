@@ -4,6 +4,7 @@ import Slogan from './slogan/Slogan';
 import { Link, useLocation } from 'react-router-dom';
 import Container from '../global/Container';
 import * as styles from './Header.module.css';
+import LOGO from "../../../public/images/header/logo.svg";
 
 const Header = () => {
     const [isBurgerMenuOpen, setisBurgerMenuOpen] = useState(false);
@@ -23,7 +24,7 @@ const Header = () => {
                     <span></span>
                 </button>
                 <div className={isBurgerMenuOpen ? styles.inner + ' ' + styles.inner_active : styles.inner}>
-                    <a href={`/`} ><img src="/images/header/logo.svg" alt="Logo" /></a>
+                    <a href={`/`} ><img src={LOGO} alt="Logo" /></a>
                     <nav className={styles.nav}>
                         <ul className={styles.list}>
                             <li>

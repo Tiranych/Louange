@@ -37,7 +37,7 @@ const Project = () => {
                             Каждый элемент текстильного декора должен идеально вписываться в общий амбиент, дополняя его и придавая пространству неповторимый шарм и изысканность.
                         </p>
                     </div>
-                    <img className={styles.img} src="/images/projects/project/1.jpg" alt="" />
+                    <img className={styles.img} src="./images/projects/project/1.jpg" alt="" />
                 </div>
                 <div className={styles.box}>
                     <p className={styles.subtitle}>Решение</p>

@@ -40,17 +40,17 @@ const ProjectSlider = () => {
             <Slider {...settings}>
                 <div className='box'>
                     <p className="text">Кремль</p>
-                    <img className='img' src="/images/home/projects/1.jpg" alt="" />
+                    <img className='img' src="./images/home/projects/1.jpg" alt="" />
                     <div className='overlay'></div>
                 </div>
                 <div className='box'>
                     <p className="text">Кремль</p>
-                    <img className='img' src="/images/home/projects/2.jpg" alt="" />
+                    <img className='img' src="./images/home/projects/2.jpg" alt="" />
                     <div className='overlay'></div>
                 </div>
                 <div className='box'>
                     <p className="text">Кремль</p>
-                    <img className='img' src="/images/home/projects/3.jpg" alt="" />
+                    <img className='img' src="./images/home/projects/3.jpg" alt="" />
                     <div className='overlay'></div>
                 </div>
             </Slider>

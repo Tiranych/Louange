@@ -17,11 +17,11 @@ const ProductSwiper = () => {
 
     return (
         <Swiper {...params}>
-            <SwiperSlide><div style={{ backgroundImage: `url("/images/catalog/productSwiper/slide-1.jpg")`, backgroundSize:'cover', backgroundPosition: 'center', height: '380px' }}></div></SwiperSlide>
-            <SwiperSlide><div style={{ backgroundImage: `url("/images/catalog/productSwiper/slide-1.jpg")`, backgroundSize:'cover', backgroundPosition: 'center', height: '380px' }}></div></SwiperSlide>
-            <SwiperSlide><div style={{ backgroundImage: `url("/images/catalog/productSwiper/slide-1.jpg")`, backgroundSize:'cover', backgroundPosition: 'center', height: '380px' }}></div></SwiperSlide>
-            <SwiperSlide><div style={{ backgroundImage: `url("/images/catalog/productSwiper/slide-1.jpg")`, backgroundSize:'cover', backgroundPosition: 'center', height: '380px' }}></div></SwiperSlide>
-            <SwiperSlide><div style={{ backgroundImage: `url("/images/catalog/productSwiper/slide-1.jpg")`, backgroundSize:'cover', backgroundPosition: 'center', height: '380px' }}></div></SwiperSlide>
+            <SwiperSlide><div style={{ backgroundImage: `url("./images/catalog/productSwiper/slide-1.jpg")`, backgroundSize:'cover', backgroundPosition: 'center', height: '380px' }}></div></SwiperSlide>
+            <SwiperSlide><div style={{ backgroundImage: `url("./images/catalog/productSwiper/slide-1.jpg")`, backgroundSize:'cover', backgroundPosition: 'center', height: '380px' }}></div></SwiperSlide>
+            <SwiperSlide><div style={{ backgroundImage: `url("./images/catalog/productSwiper/slide-1.jpg")`, backgroundSize:'cover', backgroundPosition: 'center', height: '380px' }}></div></SwiperSlide>
+            <SwiperSlide><div style={{ backgroundImage: `url("./images/catalog/productSwiper/slide-1.jpg")`, backgroundSize:'cover', backgroundPosition: 'center', height: '380px' }}></div></SwiperSlide>
+            <SwiperSlide><div style={{ backgroundImage: `url("./images/catalog/productSwiper/slide-1.jpg")`, backgroundSize:'cover', backgroundPosition: 'center', height: '380px' }}></div></SwiperSlide>
             <div className='swiper-navigation'>
                 <div className='swiper-button-prev'></div>
                 <div className='swiper-button-next'></div>

@@ -22,7 +22,7 @@ const Possibilities = () => {
                         корректировку, ремонт, освежение паром и химчистку.
                     </p>
                 </div>
-                <img className={styles.img} src="/images/about/2.jpg" alt="Hook" />
+                <img className={styles.img} src="./images/about/2.jpg" alt="Hook" />
             </div>
         </section>
     )

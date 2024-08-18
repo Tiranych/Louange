@@ -7,25 +7,25 @@ const FirstList = () => {
         <ul className={styles.firstlist}>
             <li className={styles.item}>
                 <Link to={`entry`}>
-                    <img className={styles.img} src="/images/catalog/main-1.jpg" alt="Catalog-photo" />
+                    <img className={styles.img} src="./images/catalog/main-1.jpg" alt="Catalog-photo" />
                     <p className={styles.caption}>Ткани</p>
                 </Link>
             </li>
             <li className={styles.item}>
                 <Link to={`entry`}>
-                    <img className={styles.img} src="/images/catalog/main-2.jpg" alt="Catalog-photo" />
+                    <img className={styles.img} src="./images/catalog/main-2.jpg" alt="Catalog-photo" />
                     <p className={styles.caption}>Аксессуары для штор</p>
                 </Link>
             </li>
             <li className={styles.item}>
                 <Link to={`entry`}>
-                    <img className={styles.img} src="/images/catalog/main-3.jpg" alt="Catalog-photo" />
+                    <img className={styles.img} src="./images/catalog/main-3.jpg" alt="Catalog-photo" />
                     <p className={styles.caption}>Мебель</p>
                 </Link>
             </li>
             <li className={styles.item}>
                 <Link to={`entry`}>
-                    <img className={styles.img} src="/images/catalog/main-4.jpg" alt="Catalog-photo" />
+                    <img className={styles.img} src="./images/catalog/main-4.jpg" alt="Catalog-photo" />
                     <p className={styles.caption}>Постельное белье</p>
                 </Link>
             </li>

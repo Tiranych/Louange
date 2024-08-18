@@ -5,7 +5,7 @@ import * as styles from './Box.module.css';
 const Box = ({index, text}) => {
     return (
         <Link to={`project`} state={text} className={styles.box}>
-            <img className={styles.img} src={`/images/projects/slide-${index}.jpg`} />
+            <img className={styles.img} src={`./images/projects/slide-${index}.jpg`} />
             <p className={styles.text}>{text}</p>
         </Link>
     )

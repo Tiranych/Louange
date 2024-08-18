@@ -18,23 +18,23 @@ const WindowDecor = () => {
                 <Subtitle>Что мы предлагаем</Subtitle>
                 <ul className={styles.row}>
                     <li className={styles.item}>
-                        <img src="/images/services/bedding.svg" alt="Bedding" />
+                        <img src="./images/services/bedding.svg" alt="Bedding" />
                         <p>Постельные принадлежности для дома и гостиничного бизнеса</p>
                     </li>
                     <li className={styles.item}>
-                        <img src="/images/services/person.svg" alt="Person" />
+                        <img src="./images/services/person.svg" alt="Person" />
                         <p>Персонализация изделий через вышивки и логотипы</p>
                     </li>
                 </ul>
                 <ul className={styles.list}>
                     <li className={styles.img_item}>
-                        <img className={styles.img} src="/images/services/4.jpg" alt="Window-decor" />
+                        <img className={styles.img} src="./images/services/4.jpg" alt="Window-decor" />
                     </li>
                     <li className={styles.img_item}>
-                        <img className={styles.img} src="/images/services/5.jpg" alt="Upholstery" />
+                        <img className={styles.img} src="./images/services/5.jpg" alt="Upholstery" />
                     </li>
                     <li className={styles.img_item}>
-                        <img className={styles.img} src="/images/services/6.jpg" alt="Bed-linen" />
+                        <img className={styles.img} src="./images/services/6.jpg" alt="Bed-linen" />
                     </li>
                 </ul>
                 <Steps />

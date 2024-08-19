@@ -4,8 +4,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     entry: './src/index.jsx',
     output: {
-        path: path.join(__dirname, 'public'),
+        path: path.join(__dirname, './dist'),
         filename: 'bundle.js',
+        assetModuleFilename: '[file]'
     },
     plugins: [
         new HtmlWebpackPlugin({
@@ -50,6 +51,7 @@ module.exports = {
             {
                 test: /\.(png|svg|jpg|jpeg|gif|)$/i,
                 type: 'asset/resource',
+                exclude: /node_modules/,
             },
         ],
     },

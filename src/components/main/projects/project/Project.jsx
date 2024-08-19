@@ -1,9 +1,13 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
+
 import Container from '../../../global/Container';
 import Title from '../../../global/Title';
 import ProjectSlider from './projectSlider/projectSlider';
+
 import * as styles from './Project.module.css';
+
+import PROJECT from '../../../../../public/images/projects/project/1.jpg';
 
 const Project = () => {
     const location = useLocation();
@@ -37,7 +41,7 @@ const Project = () => {
                             Каждый элемент текстильного декора должен идеально вписываться в общий амбиент, дополняя его и придавая пространству неповторимый шарм и изысканность.
                         </p>
                     </div>
-                    <img className={styles.img} src="./images/projects/project/1.jpg" alt="" />
+                    <img className={styles.img} src={PROJECT} alt="Project" />
                 </div>
                 <div className={styles.box}>
                     <p className={styles.subtitle}>Решение</p>

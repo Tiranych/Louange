@@ -1,10 +1,12 @@
 import React from 'react';
-import * as styles from './Catalog.module.css';
+
 import Container from '../../global/Container';
 import Title from '../../global/Title';
+import Button from '../../global/Button';
 import FirstList from './FirstList';
 import SecondList from './SecondList';
-import Button from '../../global/Button';
+
+import * as styles from './Catalog.module.css';
 
 const Catalog = () => {
     return (

@@ -1,9 +1,11 @@
 import React from 'react';
-import * as styles from './Projects.module.css';
+
 import Container from '../../global/Container';
 import Title from '../../global/Title';
 import Button from '../../global/Button';
 import ProjectsSwiper from './projectsSwiper/ProjectsSwiper';
+
+import * as styles from './Projects.module.css';
 
 const Projects = () => {
     return (

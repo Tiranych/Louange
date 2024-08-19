@@ -1,7 +1,8 @@
 import React from 'react';
 import Subtitle from '../Subtitle';
-import * as styles from './Partners.module.css';
 import MySwiper from './partnersSwiper/partnersSwiper';
+
+import * as styles from './Partners.module.css';
 
 const Partners = () => {
     return (

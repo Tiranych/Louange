@@ -1,6 +1,8 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
+
 import * as styles from './App.module.css';
+
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import About from './components/main/about/About';
@@ -21,27 +23,27 @@ const App = () => {
 
     return (
         <>
-            <BrowserRouter>
+            <HashRouter>
                 <Header />
                 <main className={styles.main}>
                     <Routes>
                         <Route index element={<Home />}></Route>
                         <Route path={ROUTES.CONTACTS} element={<Contacts />}></Route>
-                        <Route path='/catalog' element={<Catalog />}></Route>
-                        <Route path='/catalog/entry' element={<CatalogItem />}></Route>
-                        <Route path='/catalog/entry/product' element={<Product />}></Route>
-                        <Route path='/about' element={<About />}></Route>
-                        <Route path='/services' element={<Services />}></Route>
-                        <Route path='/projects' element={<Projects />}></Route>
-                        <Route path='/projects/project' element={<Project />}></Route>
-                        <Route path='/privacy-policy' element={<Privacy />}></Route>
-                        <Route path='/services/window-decor' element={<WindowDecor />}></Route>
-                        <Route path='/services/upholstery' element={<WindowDecor />}></Route>
-                        <Route path='/services/bed-linen' element={<WindowDecor />}></Route>
+                        <Route path={ROUTES.CATALOG} element={<Catalog />}></Route>
+                        <Route path={ROUTES.ENTRY} element={<CatalogItem />}></Route>
+                        <Route path={ROUTES.PRODUCT} element={<Product />}></Route>
+                        <Route path={ROUTES.ABOUT} element={<About />}></Route>
+                        <Route path={ROUTES.SERVICES} element={<Services />}></Route>
+                        <Route path={ROUTES.PROJECTS} element={<Projects />}></Route>
+                        <Route path={ROUTES.PROJECT} element={<Project />}></Route>
+                        <Route path={ROUTES.PRIVACY_POLICY} element={<Privacy />}></Route>
+                        <Route path={ROUTES.WINDOW_DECOR} element={<WindowDecor />}></Route>
+                        <Route path={ROUTES.UPHOLSTERY} element={<WindowDecor />}></Route>
+                        <Route path={ROUTES.BED_LINEN} element={<WindowDecor />}></Route>
                     </Routes>
                 </main>
                 <Footer />
-            </BrowserRouter>
+            </HashRouter>
         </>
     )
 }

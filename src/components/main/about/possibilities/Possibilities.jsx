@@ -2,6 +2,8 @@ import React from 'react';
 import Subtitle from '../../../global/Subtitle';
 import * as styles from './Possibilities.module.css';
 
+import Hook from '../../../../../public/images/about/About_2.jpg';
+
 const Possibilities = () => {
     return (
         <section className={styles.section}>
@@ -22,9 +24,9 @@ const Possibilities = () => {
                         корректировку, ремонт, освежение паром и химчистку.
                     </p>
                 </div>
-                <img className={styles.img} src="./images/about/2.jpg" alt="Hook" />
+                <img className={styles.img} src={Hook} alt="Hook" />
             </div>
-        </section>
+        </section>  
     )
 }
 

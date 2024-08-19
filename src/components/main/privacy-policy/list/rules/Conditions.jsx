@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { ROUTES } from '../../../../global/routes';
 
 const Conditions = ({ link, rules }) => {
     return (
         <ol>
             <li className={rules}>
-                <p>3.1. Сайт <Link className={link} to={`/`}>louange.ru</Link> хранит персональную информацию Пользователей в соответствии с внутренним регламентом 
+                <p>3.1. Сайт <Link className={link} to={ROUTES.HOME}>louange.ru</Link> хранит персональную информацию Пользователей в соответствии с внутренним регламентом 
                     ООО «ЛУАНЖ» и законодательством РФ.
                 </p>
             </li>
@@ -15,7 +16,7 @@ const Conditions = ({ link, rules }) => {
                 </p>
             </li>
             <li className={rules}>
-                <p>3.3. Сайт <Link className={link} to={`/`}>louange.ru</Link> вправе передать персональную информацию пользователя третьим лицам в следующих случаях:</p>
+                <p>3.3. Сайт <Link className={link} to={ROUTES.HOME}>louange.ru</Link> вправе передать персональную информацию пользователя третьим лицам в следующих случаях:</p>
             </li>
             <li className={rules}>
                 <ol>
@@ -25,7 +26,7 @@ const Conditions = ({ link, rules }) => {
                         </p>
                     </li>
                     <li className={rules}>
-                        <p>3.3.2. Передача необходима в рамках использования Пользователем сайта <Link className={link} to={`/`}>louange.ru</Link>, 
+                        <p>3.3.2. Передача необходима в рамках использования Пользователем сайта <Link className={link} to={ROUTES.HOME}>louange.ru</Link>, 
                         либо для оказания услуги Пользователю;
                         </p>
                     </li>
@@ -42,7 +43,7 @@ const Conditions = ({ link, rules }) => {
                 </ol>
             </li>
             <li className={rules}>
-                <p>3.4. При обработке персональных данных пользователей сайт <Link className={link} to={`/`}>louange.ru</Link> руководствуется 
+                <p>3.4. При обработке персональных данных пользователей сайт <Link className={link} to={ROUTES.HOME}>louange.ru</Link> руководствуется 
                     Федеральным законом РФ «О персональных данных».
                 </p>
             </li>

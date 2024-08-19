@@ -1,10 +1,17 @@
 import React from "react";
-import * as styles from './Product.module.css';
+
 import Title from '../../../../global/Title';
 import Container from '../../../../global/Container';
 import Subtitle from '../../../../global/Subtitle';
 import Button from '../../../../global/Button';
 import ProductSwiper from './productSwiper/ProductSwiper';
+
+import * as styles from './Product.module.css';
+
+import Product_1 from '../../../../../../public/images/catalog/product/1.jpg';
+import Product_2 from '../../../../../../public/images/catalog/product/2.jpg';
+import Product_3 from '../../../../../../public/images/catalog/product/3.jpg';
+import Product_4 from '../../../../../../public/images/catalog/product/4.jpg';
 
 const Product = () => {
     return (
@@ -31,10 +38,10 @@ const Product = () => {
                         </div>
                     </div>
                     <ul className={styles.list}>
-                        <li className={styles.item}><img className={styles.img} src="./images/catalog/product/1.jpg" alt="product-1" /></li>
-                        <li className={styles.item}><img className={styles.img} src="./images/catalog/product/2.jpg" alt="product-2" /></li>
-                        <li className={styles.item}><img className={styles.img} src="./images/catalog/product/3.jpg" alt="product-3" /></li>
-                        <li className={styles.item}><img className={styles.img} src="./images/catalog/product/4.jpg" alt="product-4" /></li>
+                        <li className={styles.item}><img className={styles.img} src={Product_1} alt="product-1" /></li>
+                        <li className={styles.item}><img className={styles.img} src={Product_2} alt="product-2" /></li>
+                        <li className={styles.item}><img className={styles.img} src={Product_3} alt="product-3" /></li>
+                        <li className={styles.item}><img className={styles.img} src={Product_4} alt="product-4" /></li>
                     </ul>
                 </div>
             </Container>

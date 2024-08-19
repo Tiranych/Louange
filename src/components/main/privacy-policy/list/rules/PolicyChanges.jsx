@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { ROUTES } from '../../../../global/routes';
 
 const PolicyChanges = ({ link, rules }) => {
     return (
@@ -10,7 +11,7 @@ const PolicyChanges = ({ link, rules }) => {
                     При внесении изменений в актуальной редакции указывается дата последнего обновления.
                     Новая редакция Политики вступает в силу с момента ее размещения, если иное не предусмотрено новой редакцией Политики.
                     Действующая редакция всегда находится на странице по адресу: 
-                    <Link className={link} to={`/privacy-policy`}>https://louange.ru/privacy-policy</Link>
+                    <Link className={link} to={ROUTES.PRIVACY_POLICY}>https://louange.ru/privacy-policy</Link>
                 </p>
             </li>
             <li className={rules}>

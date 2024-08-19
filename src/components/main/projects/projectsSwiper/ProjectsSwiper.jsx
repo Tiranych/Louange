@@ -1,8 +1,10 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
+
 import 'bootstrap/dist/css/bootstrap.css';
-import Slide from './slide/Slide';
 import './ProjectsSwiper.css';
+
+import Slide from './slide/Slide';
 
 const ProjectsSwiper = () => {
     return (

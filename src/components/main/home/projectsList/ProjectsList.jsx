@@ -1,6 +1,8 @@
 import React from "react";
+
 import Title from "../../../global/Title";
 import ProjectSlider from './slider/ProjectSlider';
+
 import * as styles from './ProjectsList.module.css';
 
 const ProjectsList = () => {

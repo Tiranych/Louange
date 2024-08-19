@@ -1,12 +1,16 @@
 import React from 'react';
+
 import Container from '../../global/Container';
 import Title from '../../global/Title';
-import * as styles from './About.module.css';
 import Approach from './approach/Approach';
 import ContactUs from '../../global/ContactUs';
 import Cooperation from './cooperation/Cooperation';
 import Partners from '../../global/partners/Partners';
 import Possibilities from './possibilities/Possibilities';
+
+import * as styles from './About.module.css';
+
+import SewingMachine from "../../../../public/images/about/About_1.jpg";
 
 const About = () => {
     return(
@@ -17,7 +21,7 @@ const About = () => {
                         О студии
                     </Title>
                     <div className={styles.content}>
-                        <img className={styles.img} src="./images/about/1.jpg" alt="Sewing machine" />
+                        <img className={styles.img} src={SewingMachine} alt="Sewing machine" />
                         <div className={styles.box}>
                             <p className={styles.text}>
                                 LOUANGE — это собственная мастерская по пошиву, которая более 25 лет 

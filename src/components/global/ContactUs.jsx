@@ -1,7 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
 import Subtitle from './Subtitle';
+
 import * as styles from './ContactUs.module.css';
+
+import {ROUTES} from '../global/routes';
+
+import CORNICE from '../../../public/images/about/About_3.jpg';
 
 const ContactUs = () => {
     return (
@@ -19,14 +25,14 @@ const ContactUs = () => {
                         <textarea className={styles.input + ' ' + styles.textarea} name='textarea' required placeholder='Опишите ваш проект'></textarea>
                         <div className={styles.row}>
                             <input className={styles.checkbox} name='checkbox' required type="checkbox" />
-                            <p className={styles.text}>Я согласен с <Link to={`/privacy-policy`} className={styles.link}>политикой обработки персональных данных</Link> и даю
-                                <Link to={`/privacy-policy`} className={styles.link}> согласие</Link> на обработку своих персональных данных
+                            <p className={styles.text}>Я согласен с <Link to={ROUTES.PRIVACY_POLICY} className={styles.link}>политикой обработки персональных данных</Link> и даю
+                                <Link to={ROUTES.PRIVACY_POLICY} className={styles.link}> согласие</Link> на обработку своих персональных данных
                             </p>
                         </div>
                         <button className={styles.btn} type='submit'>Отправить заявку</button>
                     </form>
                 </div>
-                <img className={styles.img} src="./images/about/3.jpg" alt="Cornice" />
+                <img className={styles.img} src={CORNICE} alt="Cornice" />
             </div>
         </section>
     )

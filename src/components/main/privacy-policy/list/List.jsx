@@ -1,11 +1,13 @@
 import React from "react";
-import * as styles from './List.module.css';
+
 import Actions from './rules/Actions';
 import Conditions from './rules/Conditions';
 import PersonalChanges from './rules/PersonalChanges';
 import PersonalInfoRules from './rules/PersonalInfoRules';
 import PolicyChanges from './rules/PolicyChanges';
 import Purposes from "./rules/Purposes";
+
+import * as styles from './List.module.css';
 
 const List = ({link}) => {
     return (

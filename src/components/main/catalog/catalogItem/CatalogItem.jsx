@@ -1,10 +1,12 @@
 import React from "react";
-import * as styles from './CatalogItem.module.css';
+
 import Container from '../../../global/Container';
 import Title from '../../../global/Title'
 import Button from '../../../global/Button';
 import Categories from './categories/Categories';
 import MySwiper from './catalogSwiper/catalogSwiper';
+
+import * as styles from './CatalogItem.module.css';
 
 const CatalogItem = () => {
     return (

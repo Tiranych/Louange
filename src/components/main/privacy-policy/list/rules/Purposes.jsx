@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { ROUTES } from '../../../../global/routes';
 
 const Purposes = ({link, rules}) => {
     return (
         <ol>
             <li className={rules}>
                 <p>2.1. Сайт собирает и хранит только те персональные данные, которые необходимы для оказания услуг 
-                    или предоставления иных ценностей для посетителей сайта <Link className={link} to={`/`}>louange.ru</Link>.
+                    или предоставления иных ценностей для посетителей сайта <Link className={link} to={ROUTES.HOME}>louange.ru</Link>.
                 </p>
             </li>
             <li className={rules}><p>2.2. Персональную информацию пользователя можно использовать в следующих целях:</p></li>

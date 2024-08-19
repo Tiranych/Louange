@@ -1,8 +1,14 @@
 import React from 'react';
+
 import Slider from "react-slick";
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './ProjectSlider.css';
+
+import Project_1 from '../../../../../../public/images/home/projects/1.jpg';
+import Project_2 from '../../../../../../public/images/home/projects/2.jpg';
+import Project_3 from '../../../../../../public/images/home/projects/3.jpg';
 
 const ProjectSlider = () => {
     const settings = {
@@ -40,17 +46,17 @@ const ProjectSlider = () => {
             <Slider {...settings}>
                 <div className='box'>
                     <p className="text">Кремль</p>
-                    <img className='img' src="./images/home/projects/1.jpg" alt="" />
+                    <img className='img' src={Project_1} alt="Project" />
                     <div className='overlay'></div>
                 </div>
                 <div className='box'>
                     <p className="text">Кремль</p>
-                    <img className='img' src="./images/home/projects/2.jpg" alt="" />
+                    <img className='img' src={Project_2} alt="Project" />
                     <div className='overlay'></div>
                 </div>
                 <div className='box'>
                     <p className="text">Кремль</p>
-                    <img className='img' src="./images/home/projects/3.jpg" alt="" />
+                    <img className='img' src={Project_3} alt="Project" />
                     <div className='overlay'></div>
                 </div>
             </Slider>

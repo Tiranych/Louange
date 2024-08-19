@@ -1,7 +1,15 @@
 export const ROUTES = {
     HOME: "/",
     CONTACTS: "/contacts",
-    PROFILE: "/profile",
-    PRODUCT: "/products/:id",
-    CATEGORY: "/categories/:id",
+    CATALOG: "/catalog",
+    ENTRY: "/catalog/entry",
+    PRODUCT: "/catalog/entry/product",
+    ABOUT: "/about",
+    SERVICES: "/services",
+    WINDOW_DECOR: "/services/window-decor",
+    UPHOLSTERY: "/services/upholstery",
+    BED_LINEN: "/services/bed-linen",
+    PROJECTS: "/projects",
+    PROJECT: "/projects/project",
+    PRIVACY_POLICY: "/privacy-policy",
 };

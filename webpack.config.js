@@ -7,7 +7,7 @@ module.exports = {
     output: {
         path: path.join(__dirname, './dist'),
         filename: 'bundle.js',
-        assetModuleFilename: '[file]'
+        assetModuleFilename: '[file]',
     },
     plugins: [
         new HtmlWebpackPlugin({
@@ -17,7 +17,7 @@ module.exports = {
             patterns: [
                 { from: "public/images", to: "public/images" },
             ],
-        })
+        }),
     ],
     module: {
         rules: [
@@ -55,9 +55,8 @@ module.exports = {
                 },
             },
             {
-                test: /\.(png|svg|jpg|jpeg|gif|)$/i,
+                test: /\.(png|svg|jpg|jpeg)$/i,
                 type: 'asset/resource',
-                exclude: /node_modules/,
             },
         ],
     },

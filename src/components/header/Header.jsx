@@ -16,6 +16,8 @@ const Header = () => {
 
     const location = useLocation();
     let isHomePage = true;
+    const homePage = window.location.pathname;
+
     if (location.pathname !== ROUTES.HOME) { isHomePage = false }
 
     window.addEventListener('scroll', () => {
@@ -29,7 +31,7 @@ const Header = () => {
                     <span></span>
                 </button>
                 <div className={isBurgerMenuOpen ? styles.inner + ' ' + styles.inner_active : styles.inner}>
-                    <a href={ROUTES.HOME} ><img src={LOGO} alt="Logo" /></a>
+                    <a href={homePage} ><img src={LOGO} alt="Logo" /></a>
                     <nav className={styles.nav}>
                         <ul className={styles.list}>
                             <li>

@@ -1,15 +1,22 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
     entry: './src/index.jsx',
     output: {
         path: path.join(__dirname, './dist'),
         filename: 'bundle.js',
+        assetModuleFilename: '[file]',
     },
     plugins: [
         new HtmlWebpackPlugin({
             template: './src/index.html',
+        }),
+        new CopyPlugin({
+            patterns: [
+                { from: "public/images", to: "public/images" },
+            ],
         }),
     ],
     module: {
@@ -48,7 +55,7 @@ module.exports = {
                 },
             },
             {
-                test: /\.(png|svg|jpg|jpeg|gif|)$/i,
+                test: /\.(png|svg|jpg|jpeg)$/i,
                 type: 'asset/resource',
             },
         ],
